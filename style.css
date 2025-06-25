@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+header {
+  background-color: #ffffff;
+  color: black;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+.site-title {
+  font-size: 2rem;
+  margin: 0.2rem 0;
+}
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+nav a {
+  color: black;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.hero {
+  background-image: url('images/placeholder1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  color: white;
+  text-align: center;
+}
+.portfolio-preview {
+  padding: 2rem;
+  text-align: center;
+}
+.preview-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.preview-grid img {
+  width: 300px;
+  border-radius: 6px;
+  transition: transform 0.3s;
+}
+.preview-grid img:hover {
+  transform: scale(1.05);
+}
+footer {
+  background-color: #2e4d38;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
